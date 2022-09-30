@@ -106,3 +106,84 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+Wall of Gains
+
+This website was created to help those that are in or are just entering the crypto space, our aim is to provide a place for people around the world to communicate share ideas and even possible make their own calls, but we also have our paid callers that have proven themselves time and time again that they know the space well. We welcome those of all ages in the cryptocurrency and NFT space, currently the space is full of teenagers that need the education we provide.
+
+￼
+
+Features
+
+Navigation bar: to allow a quick jump to the sections that interest the reader with a back to top bottom at the bottom allowing those once they’ve swipe to quickly get back to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. Navigation bar includes a <details> which breaks the education section allowing for users to be more specific when it comes to choosing blockchains. The audio file is a nice relaxing song as those first entering the space may be nervous so this was implemented to help settle nerves and help the user as they approach a new concept.
+
+
+￼
+
+About us: 
+
+Gives us a description of what the discord group is and what they are planning to do the fact of that “64%” is there could also intrigue users and keep them hooked as they scroll down the page. Gives a little update for what we are currently doing and providing utility to the community.
+
+
+￼
+Video/links:
+
+Videos and links are used within this website as not everyone is a reading type of learner we have listeners and visual learners as well, so to cater for our audience as well as trying to introduce more elements to keep the user engaged we embed a YouTube beginners guide from Coin Bureau, where he starts right at the beginning and explore the world of crypto currency. Those that prefer to learn by doing they can easily access one of the market places link in the html to explore.  
+
+￼
+Contact us:
+
+As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template and we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
+
+
+Bugs:
+
+I ran into a few bugs along the way e.g. iframe not loading correctly due to the websites security protection (https://opensea.io/) which was resolved by using a different marketplace website. 
+
+Validator testing (HTML): issues within the HTML were kept to spelling mistakes and mistypes that cause links and elements not to display properly worked through a majority of fixes.
+Validator testing (CSS): pulled one issue with the wrong value for top which has been adjusted 
+Accessibility : alt text has been used in every image and link open up in new tabs allowing people to get back to our page easily. 
+
+
+Deployment:
+
+This site was deployed to GitHub pages. First in the Github repository, navigate to settings tab then select master branch in the source section. Select master branch and link is generated.
+
+Credits
+
+Content:
+
+Logo uploaded online : https://ibb.co/JC7DRp8
+
+Team twitter links:
+  -   https://twitter.com/nkk_sol
+- https://twitter.com/CryptoChrisSol
+- https://twitter.com/CryptoSim66
+- https://twitter.com/chasemoney4Iife
+- https://twitter.com/crypto_blick
+- https://twitter.com/CyberWolf_gr
+
+Solana marketplaces
+- https://magiceden.io
+- https://hyperspace.xyz/
+
+Solana tools 
+- http://solsniper.xyz
+- https://discord.com
+
+YouTube
+- https://www.youtube.com/embed/VYWc9dFqROI
+
+Cryptocurrency marketplaces
+- https://www.bybit.com
+- https://www.binance.com/
+- https://www.kucoin.com/
+- https://bingx.com/
+
+Discord invite to server :
+- https://discord.gg/GDCgsA8UuN
+
+Wall of Gains twitter:
+- https://twitter.com/WallofGains
+
