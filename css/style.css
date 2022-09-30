@@ -1,0 +1,432 @@
+html {
+  min-width: min-content;
+  contain: content;
+  width: -webkit-fill-available;
+}
+
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-size:20px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+ nav {
+  position: fixed;
+  width: -webkit-fill-available;
+  height: 47px;
+  text-align: center;
+  top: 300px;
+  background: midnightblue;
+  align-content: center;
+ } 
+
+div {
+  text-align: -webkit-center;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.founders-info {
+  margin-left:10px;
+}
+
+i {
+  position: relative;
+  left: 0px;
+  font-size: 2em;
+}
+
+.chase-sim {
+  bottom: -29px;
+  position: relative;
+}
+
+/* nav css code */
+
+.heading-bar {
+  background-color: black; 
+  border: 10px solid rgb(8, 27, 148);
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #ccc;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  }
+
+  .logo {
+    position:relative;
+    top:center;
+    width:100%;
+    height: 100px;
+  }
+
+  nav ul {
+    margin-top: 0px;
+    padding-left: 0px;
+    text-align: center;
+    display:inline-block;
+    height:auto;
+    width:100%;
+    margin-block-start: -2em;
+    margin-block-end: 0em;
+    margin-inline-start: 0;
+    font-variant: small-caps;
+  }
+
+nav li {
+    font-size: 1em;
+    line-height: 20px;
+    height:20px;
+    display:inline-block;
+    margin:1.5%;
+  }
+
+nav a {
+    text-decoration-line: none;
+    color: white;
+    display: inline;
+  }
+
+nav a:hover {
+    background-color:white;
+    color:black;
+  }
+
+.founders-title {
+   text-align: center;
+  }
+
+.founders-section-area {
+  display: inline-block;
+  width: -webkit-fill-available;
+}
+
+.founders-title {
+  display: inline;
+  width: 100%;
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+}
+.webpage-heading {  
+  height: 100px;
+  display: inline-block;
+  border-bottom: double;
+  margin: 50px 0 70px 0;
+  text-align: center;    
+  width:100%;
+}
+
+.template-spacing {
+  display: flex;
+  max-width: 100%;
+  min-height: 90vh;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-self: center;;
+}
+
+.founders-template {
+  width: 300px;
+    border: 6px;
+    border-color: white;
+    border-style: dashed;
+    border-radius: 95px;
+    display: inline;
+    margin: 5px;
+}
+
+
+.founders-centering {
+  margin:0;
+  margin-top: 20px;
+}
+
+.founders-pfp {
+  width: 250px;
+  position: relative;
+  padding: 10px;
+}
+
+
+.paragraph-setting {
+  text-align: -webkit-center;
+  width: 80%;
+}
+
+.paragraph-setting-2 {
+text-align: -webkit-center;
+width: 80%;
+margin-top: 0px;
+top: -60px;
+position: relative;
+}
+
+.div-centering {
+  text-align: -webkit-center;
+}
+
+section > p {
+  height: 100px;
+  text-align: -webkit-center;
+  display: contents;
+}
+
+p {
+  text-align: -webkit-center;
+  width: 80%;
+}
+
+.caller-div-area {
+  display:block;
+  height: 700px;
+  margin-left: 0px;
+}
+
+.section-width {
+  width: 100%;
+  margin-left: 0;
+}
+
+.callers-div {
+  height: 350px;
+  display: inline-block;
+  width: 100%;
+}
+
+.callers-list {
+  display: contents;
+  list-style-type: none;
+  position: relative;
+}
+
+.solana-callers {
+  position: relative;
+  border: 6px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 56px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.ethereum-callers {
+  position: relative;
+  border: 6px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 56px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  bottom: 45px;
+}
+
+.futures-callers {
+  position: relative;
+  border: 6px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 56px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.profit-spacing{
+  margin-top: 30px;
+  border-top-width: 10px;
+}
+
+.profit-list {
+  list-style: none;
+  padding-left: 0%
+  ;
+}
+.profit-list-section { 
+  display: flex;
+  max-width: 1000px;
+  min-height: 55vh;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 55px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.profit-image {
+  width: auto;
+  height: 140px;
+}
+
+.future-overflow {
+  height: 500px;
+  overflow: auto;
+  width:fit-content;
+}
+
+.future-profit-image {
+  width: auto;
+  height: 400px;
+}
+
+.solana-marketplaces {
+  display: flex;
+  max-width: 1202px;
+  min-height: 90vh;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+div > iframe {
+  width: 500px;
+  height: 300px;
+}
+
+.video-float {
+  float: left;
+  transform-box: view-box;
+  width: 550px;
+  height: 310px;
+  top: 50px;
+  margin-left: 90px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.rarible {
+  width: 550px;
+  position: relative;
+  top: 19px;
+  right: -15px;
+}
+
+.future-heading {
+  position: relative;
+  right: 175px;
+  top: 25px;
+}
+
+.different-marketplace-text {
+  margin-left: 563px;
+  width: 300px;
+  top: 60px;
+  position: relative;
+  border: 6px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 25px;
+}
+
+.future-marketplace-text {
+  position: relative;
+  border: 6px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 56px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  list-style-type: none;
+  right: -76px;
+  top: -11px;
+  width: 305px;
+}  
+
+.future-marketplace-list {
+  position: relative;
+  border: 6px;
+  border-color: white;
+  border-style: dashed;
+  border-radius: 56px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  float: right;
+  list-style-type: none;
+  right: -100px;
+  top: -210px;
+  width: 305px;
+}
+
+.iframe-div-text {
+  width: 100px;
+  position: relative;
+  top: 35px;
+}
+
+.stats-div {
+  clear: both;
+  display: block;
+  height: 450px;
+}
+
+.future-marketplace {
+  height: 380px;
+}
+
+.future-list {
+  list-style-type: none;
+  text-decoration-color: blue;
+  text-decoration-line: underline;
+  padding-left: 0px;
+}
+
+iframe {
+  border:none;
+}
+
+a {
+  text-decoration-color: inherit;
+  color: inherit;
+}
+
+.footer-area {
+  background-color: midnightblue;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0px;
+}
+
+.future-div {
+height: 610px;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.up-arrow{
+  position:relative;
+  right:5px;
+}
+
+.arrow-styling {
+  position: relative;
+  right: -490px;
+top: -131px;
+font-size: 3.5em;
+}
