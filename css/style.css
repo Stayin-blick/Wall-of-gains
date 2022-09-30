@@ -22,7 +22,7 @@ body {
   width: -webkit-fill-available;
   height: 47px;
   text-align: center;
-  top: 300px;
+  top: 310px;
   background: midnightblue;
   align-content: center;
  } 
@@ -429,4 +429,27 @@ body::-webkit-scrollbar {
   right: -490px;
 top: -131px;
 font-size: 3.5em;
+}
+
+.audio-div {
+  top: 69px;
+  position: relative;
+  z-index: 1;
+  height: 0px;
+  opacity: 0.25;
+}
+
+audio {
+  z-index: 1;
+  position: relative;
+  top: -395px;
+  left: -483px;
+  height: 25px;
+  width: 200px;
+}
+
+.play-me {
+  position: relative;
+  top: -420px;
+  left: -484px;
 }
