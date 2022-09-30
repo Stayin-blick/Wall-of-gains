@@ -30,7 +30,7 @@ body {
 div {
   text-align: -webkit-center;
   width: 100%;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .founders-info {
@@ -443,7 +443,7 @@ audio {
   z-index: 1;
   position: relative;
   top: -395px;
-  left: -483px;
+  left: -425px;
   height: 25px;
   width: 200px;
 }
@@ -451,5 +451,5 @@ audio {
 .play-me {
   position: relative;
   top: -420px;
-  left: -484px;
+  left: -415px;
 }
