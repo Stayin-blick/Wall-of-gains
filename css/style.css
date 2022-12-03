@@ -451,3 +451,7 @@ audio {
   top: -420px;
   left: -415px;
 }
+
+.tools_list {
+  list-style: none;
+}
