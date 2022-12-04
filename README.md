@@ -157,7 +157,7 @@ Content:
 Logo uploaded online : https://ibb.co/JC7DRp8
 
 Team twitter links:
-  -   https://twitter.com/nkk_sol
+- https://twitter.com/nkk_sol
 - https://twitter.com/CryptoChrisSol
 - https://twitter.com/CryptoSim66
 - https://twitter.com/chasemoney4Iife
