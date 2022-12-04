@@ -486,8 +486,8 @@ audio {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #rgb(8, 27, 148);}
+.dropdown-content a:hover {background-color: rgb(8, 27, 148);}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #rgb(8, 27, 148);}
+.dropdown:hover .dropbtn {background-color: rgb(8, 27, 148);}
