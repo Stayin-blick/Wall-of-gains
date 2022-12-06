@@ -16,15 +16,6 @@ body {
     text-align: center;
   }
 
- nav {
-  position: fixed;
-  width: -webkit-fill-available;
-  height: 47px;
-  text-align: center;
-  top: 310px;
-  background: midnightblue;
-  align-content: center;
-} 
 
 div {
   text-align: -webkit-center;
@@ -42,11 +33,6 @@ i {
   font-size: 2em;
 }
 
-.chase-sim {
-  bottom: -29px;
-  position: relative;
-}
-
 /* nav css code */
 
 .heading-bar {
@@ -55,27 +41,36 @@ i {
   border-radius: 5px;
   box-shadow: 10px 10px 10px #ccc;
   top: 0;
-  width: 100%;
+  max-width: 100%;
   z-index: 9999;
   }
 
   .logo {
-    position:relative;
-    width:100%;
-    height: 100px;
+    position: relative;
+    width: 60%;
+    height: auto;
+  }
+
+  .nav-list {
+    margin-top: 0;
+  }
+
+nav {
+  height: 40px;
+  background: rgb(8, 27, 148);
+  width: -webkit-fill-available;    text-align: center;
   }
 
   nav ul {
-    margin-top: 0px;
     padding-left: 0px;
     text-align: center;
-    display:inline-block;
-    height:auto;
-    width:100%;
+    display: inline-block;
+    height: auto;
+    width: 100%;
     margin-block-start: -2em;
     margin-block-end: 0em;
-    margin-inline-start: 0;
     font-variant: small-caps;
+    margin-top: 0px;
   }
 
 nav li {
@@ -103,7 +98,7 @@ nav a:hover {
 
 .founders-section-area {
   display: inline-block;
-  width: -webkit-fill-available;
+  max-width: 100%;
 }
 
 .founders-title {
@@ -113,6 +108,12 @@ nav a:hover {
   top: 10px;
   bottom: 10px;
 }
+
+.sim {
+  position: relative;
+  bottom: 0px;
+}
+
 .webpage-heading {  
   height: 100px;
   display: inline-block;
@@ -126,7 +127,6 @@ nav a:hover {
   display: flex;
   max-width: 100%;
   min-height: 90vh;
-  margin: 0 auto;
   padding: 30px;
   gap: 40px;
   flex-direction: row;
@@ -136,7 +136,7 @@ nav a:hover {
   margin-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  align-self: center;;
+  align-self: center;
 }
 
 .founders-template {
@@ -182,7 +182,6 @@ position: relative;
 section > p {
   height: 100px;
   text-align: -webkit-center;
-  display: contents;
 }
 
 p {
@@ -191,20 +190,25 @@ p {
 }
 
 .caller-div-area {
-  display:block;
-  height: 700px;
+  display: block;
+  height: fit-content;
   margin-left: 0px;
 }
 
 .section-width {
-  width: 100%;
-  margin-left: 0;
+  position: relative;
+  top: 25px;
 }
 
 .callers-div {
-  height: 350px;
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  max-width: 100%;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .callers-list {
@@ -257,18 +261,6 @@ p {
   padding-left: 0%
   ;
 }
-.profit-list-section { 
-  display: flex;
-  max-width: 1000px;
-  min-height: 55vh;
-  margin: 0 auto;
-  padding: 30px;
-  gap: 55px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
 
 .profit-image {
   width: auto;
@@ -286,6 +278,17 @@ p {
   height: 400px;
 }
 
+.marketplaces_positioning {
+  display: flex;
+  max-width: 100%;
+  height: 50vh;
+  flex-direction: row;    
+  justify-content: center;
+  align-self: center;
+
+}
+
+
 .solana-marketplaces {
   display: flex;
   max-width: 1202px;
@@ -294,6 +297,11 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+}
+
+.eth-marketplace {
+  max-width: 100%;
+  height: 55vh;
 }
 
 div > iframe {
@@ -306,34 +314,31 @@ div > iframe {
   transform-box: view-box;
   width: 550px;
   height: 310px;
-  top: 50px;
+  top: 20px;
   margin-left: 90px;
-  margin-right: 50px;
-  margin-top: 20px;
+  right: -47px;
+  position: relative;
 }
 
 .rarible {
   width: 550px;
-  position: relative;
-  top: 19px;
-  right: -15px;
+  height: 325px;
+  margin-left: 200px;
 }
 
 .future-heading {
   position: relative;
-  right: 175px;
   top: 25px;
 }
 
 .different-marketplace-text {
-  margin-left: 563px;
-  width: 300px;
-  top: 60px;
-  position: relative;
   border: 6px;
   border-color: white;
   border-style: dashed;
   border-radius: 25px;
+  width: 277px;
+  height: 200px;
+  margin-left: 230px;
 }
 
 .future-marketplace-text {
@@ -345,10 +350,7 @@ div > iframe {
   display: inline-block;
   margin: 5px;
   padding: 5px;
-  float: left;
   list-style-type: none;
-  right: -76px;
-  top: -11px;
   width: 305px;
 }  
 
@@ -409,7 +411,8 @@ a {
 }
 
 .future-div {
-height: 610px;
+  height: 660px;
+  max-width: 100%;
 }
 
 
@@ -439,21 +442,31 @@ font-size: 3.5em;
 
 audio {
   z-index: 1;
-  position: relative;
-  top: -395px;
-  left: -425px;
-  height: 25px;
-  width: 200px;
+  position: absolute;
+  left: 0;
+  width: 20%;
+  opacity: 0.25;
+  height: 40px;
+  margin-left: 10px;
+  top: 10px;
+  bottom: auto;
+  right: auto;
 }
 
 .play-me {
-  position: relative;
-  top: -420px;
-  left: -415px;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 20%;
+  opacity: 0.25;
+  height: 40px;
+  margin-left: 10px;
+  top: 30px;
 }
 
 .tools_list {
   list-style: none;
+  padding-left: 0px;
 }
 
 .dropbtn {
@@ -491,3 +504,44 @@ audio {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: rgb(8, 27, 148);}
+
+/*tablets and under */
+@media screen and (max-width: 768px) {
+  Html {
+    Min-width: 100%
+  }
+  
+  .heading-bar{
+    max-width: fit-content;
+  }
+  header {
+    Max-width: fit-content;
+    Height: fit-content;
+  }
+  .logo-area{
+    height: 295px;
+
+  }
+  .logo {
+    width: 90%;
+  }
+
+  .play-me {
+    inline-size: fit-content;
+    position: relative;
+    top: -355px;
+    left: -110px;
+  }
+
+  Nav {
+    position: relative;
+    width: -webkit-fill-available;
+    text-align: center;
+    top: -50px;
+    background: rgb(8, 27, 148);
+    }
+
+/*mobile*/
+@media screen and (max-width: 500px) {
+  
+}
