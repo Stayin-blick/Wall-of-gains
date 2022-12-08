@@ -334,16 +334,13 @@ div > iframe {
 }
 
 .different-marketplace-text {
-  position: relative;
   border: 6px;
   border-color: white;
   border-style: dashed;
-  border-radius: 56px;
-  display: inline-block;
-  margin: 5px;
-  padding: 5px;
-  list-style-type: none;
-  width: 305px;
+  border-radius: 25px;
+  width: 277px;
+  height: 200px;
+  margin-left: 620px;
 }
 
 .future-ed-div {
