@@ -321,9 +321,11 @@ div > iframe {
 }
 
 .rarible {
+  float: right;
+  transform-box: view-box;
   width: 550px;
-  height: 325px;
-  margin-left: 200px;
+  height: 310px;
+  position: relative;
 }
 
 .future-heading {
@@ -332,13 +334,20 @@ div > iframe {
 }
 
 .different-marketplace-text {
+  position: relative;
   border: 6px;
   border-color: white;
   border-style: dashed;
-  border-radius: 25px;
-  width: 277px;
-  height: 200px;
-  margin-left: 230px;
+  border-radius: 56px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  list-style-type: none;
+  width: 305px;
+}
+
+.future-ed-div {
+  max-width: 90%;
 }
 
 .future-marketplace-text {
