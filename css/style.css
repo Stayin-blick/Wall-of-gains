@@ -413,10 +413,10 @@ a {
 
 .footer-area {
   background-color: rgb(8, 27, 148);
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  left: 0px;
+  display: inline-block;
+  position: inherit;
+  margin-top: -50px;
 }
 
 .future-div {
@@ -435,8 +435,8 @@ body::-webkit-scrollbar {
 }
 
 .arrow-styling {
-  position: relative;
-  right: -490px;
+position: relative;
+right: -490px;
 top: -131px;
 font-size: 3.5em;
 }
@@ -532,12 +532,13 @@ audio {
     height: 190px;
   }
   .logo {
-    width: 90%;
+    max-width: 90%;
+    height: auto;
   }
 
   .play-me {
     position: relative;
-    top: -283px;
+    top: -210px;
     left: -325px;
     max-width: 20%;
     height: 3px;
@@ -549,7 +550,7 @@ audio {
     position: relative;
     width: -webkit-fill-available;
     text-align: center;
-    top: -50px;
+    top: 70px;
     background: rgb(8, 27, 148);
     }
 
@@ -600,7 +601,7 @@ audio {
 
 /*mobile*/
 @media screen and (max-width: 425px) {
-  
+
   .heading-bar{
     max-width: fit-content;
     height: 220px;
@@ -647,7 +648,7 @@ audio {
     margin-left: 0px;
     transform: translateY(-40px);
     position: relative;
-    top: -10px;
+    top: 20px;
     contain: content;
   }
 
