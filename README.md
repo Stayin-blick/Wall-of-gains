@@ -110,13 +110,13 @@ Happy coding!
 
 Wall of Gains
 
-This website was created to help those that are in or are just entering the crypto space, our aim is to provide a place for people around the world to communicate share ideas and even possible make their own calls, but we also have our paid callers that have proven themselves time and time again that they know the space well. We welcome those of all ages in the cryptocurrency and NFT space, currently the space is full of teenagers that need the education we provide.
+This website was created to help those that are in or are just entering the crypto/web 3 space, our aim is to provide a place for people around the world to communicate share ideas and even possible make their own calls, but we also have our paid callers that have proven themselves time and time again that they know the space well. We welcome those of all ages in the cryptocurrency and NFT space, currently the space is full of teenagers/young adults that need the education we provide.
 
-￼
+![Screenshot 2022-12-10 at 18 17 31](https://user-images.githubusercontent.com/109948932/206869777-9749ade0-223d-4bd3-a249-31877544e0c1.png)
 
 Features
 
-Navigation bar: to allow a quick jump to the sections that interest the reader with a back to top bottom at the bottom allowing those once they’ve swipe to quickly get back to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. Navigation bar includes a <details> which breaks the education section allowing for users to be more specific when it comes to choosing blockchains. The audio file is a nice relaxing song as those first entering the space may be nervous so this was implemented to help settle nerves and help the user as they approach a new concept.
+Navigation bar: to allow a quick jump to the sections that interest the reader with a back to top bottom at the bottom allowing those once they’ve swipe to quickly get back to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. Navigation bar includes a <details> which breaks the education section allowing for users to be more specific when it comes to choosing blockchains. The audio file is a nice relaxing song as those first entering the space may be nervous so this was implemented to help settle nerves and help the user as they approach a new concept, its located at the top of the page which allows users to quickly identify and interact with.
 
 
 ￼
@@ -134,15 +134,15 @@ Videos and links are used within this website as not everyone is a reading type 
 ￼
 Contact us:
 
-As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template and we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
+As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template which opens in a new tab, we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
 
 
 Bugs:
 
 I ran into a few bugs along the way e.g. iframe not loading correctly due to the websites security protection (https://opensea.io/) which was resolved by using a different marketplace website. 
 
-Validator testing (HTML): issues within the HTML were kept to spelling mistakes and mistypes that cause links and elements not to display properly worked through a majority of fixes.
-Validator testing (CSS): pulled one issue with the wrong value for top which has been adjusted 
+Validator testing (HTML & CSS): 
+No errors using both HTML validator and CSS validator
 Accessibility : alt text has been used in every image and link open up in new tabs allowing people to get back to our page easily. 
 
 
@@ -153,8 +153,6 @@ This site was deployed to GitHub pages. First in the Github repository, navigate
 Credits
 
 Content:
-
-Logo uploaded online : https://ibb.co/JC7DRp8
 
 Team twitter links:
 - https://twitter.com/nkk_sol
