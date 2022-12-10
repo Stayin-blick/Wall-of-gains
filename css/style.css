@@ -62,23 +62,20 @@ nav {
   }
 
   nav ul {
-    padding-left: 0px;
     text-align: center;
-    display: inline-block;
     height: auto;
-    width: 100%;
+    min-width: 100%;
     margin-block-start: -2em;
     margin-block-end: 0em;
     font-variant: small-caps;
     margin-top: 0px;
+    display: inline-flex;
+    justify-content: space-around;
   }
 
 nav li {
-    font-size: 1em;
-    line-height: 20px;
-    height:20px;
-    display:inline-block;
-    margin:1.5%;
+  display: inline-block;
+  margin: 1.5%;
   }
 
 nav a {
@@ -490,6 +487,7 @@ audio {
 .dropdown {
   position: relative;
   display: inline-block;
+  transform: translateY(-20px);
 }
 
 .dropdown-content {
@@ -553,6 +551,14 @@ audio {
     top: 70px;
     background: rgb(8, 27, 148);
     }
+  
+  nav ul li {
+    font-size: 1em;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 1.5%;
+  }
 
   .callers-div {
     display: flex;
