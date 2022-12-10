@@ -118,20 +118,21 @@ Features
 
 Navigation bar: to allow a quick jump to the sections that interest the reader with a back to top bottom at the bottom allowing those once they’ve swipe to quickly get back to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. Navigation bar includes a <details> which breaks the education section allowing for users to be more specific when it comes to choosing blockchains. The audio file is a nice relaxing song as those first entering the space may be nervous so this was implemented to help settle nerves and help the user as they approach a new concept, its located at the top of the page which allows users to quickly identify and interact with.
 
-
-￼
+![Who are we, what are we doing in this space](https://user-images.githubusercontent.com/109948932/206869864-a878527c-54dc-4e12-8e5c-47ff0047b561.png)
 
 About us: 
 
 Gives us a description of what the discord group is and what they are planning to do the fact of that “64%” is there could also intrigue users and keep them hooked as they scroll down the page. Gives a little update for what we are currently doing and providing utility to the community.
 
-
-￼
+![in ether Solana, Tezos or](https://user-images.githubusercontent.com/109948932/206869885-35fa76f8-55ed-4593-b39c-09590cccf9cd.png)
+  
 Video/links:
 
 Videos and links are used within this website as not everyone is a reading type of learner we have listeners and visual learners as well, so to cater for our audience as well as trying to introduce more elements to keep the user engaged we embed a YouTube beginners guide from Coin Bureau, where he starts right at the beginning and explore the world of crypto currency. Those that prefer to learn by doing they can easily access one of the market places link in the html to explore.  
 
-￼
+
+![Join us today or miss the profits the choice is yours](https://user-images.githubusercontent.com/109948932/206869908-ce1db7f1-f92b-4f83-b2c6-fe3f8dc41e2f.png)
+
 Contact us:
 
 As we are a community we want our users to be able to access and ask us questions any time of the day to make this achievable all of our team members personal twitter accounts are hyperlinked within their own template which opens in a new tab, we also have a link to the discord and twitter for Wall Of Gains. As the team members are from all around the world we will always respond quick.
