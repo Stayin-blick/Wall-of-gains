@@ -487,7 +487,6 @@ audio {
 .dropdown {
   position: relative;
   display: inline-block;
-  transform: translateY(-20px);
 }
 
 .dropdown-content {
