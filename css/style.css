@@ -23,10 +23,6 @@ div {
   margin-left: 0;
 }
 
-.founders-info {
-  margin-left:10px;
-}
-
 i {
   position: relative;
   left: 0px;
@@ -36,29 +32,27 @@ i {
 /* nav css code */
 
 .heading-bar {
-  background-color: black; 
+  background-color: black;
   border: 10px solid rgb(8, 27, 148);
   border-radius: 5px;
   box-shadow: 10px 10px 10px #ccc;
-  top: 0;
   max-width: 100%;
-  z-index: 9999;
-  }
+}
 
-  .logo {
-    position: relative;
-    width: 60%;
-    height: auto;
-  }
+.logo {
+  height: 100%;
+}
 
   .nav-list {
     margin-top: 0;
   }
 
 nav {
-  height: 40px;
   background: rgb(8, 27, 148);
-  width: -webkit-fill-available;    text-align: center;
+  width: -webkit-fill-available;
+  text-align: center;
+  position: relative;
+  bottom: 65px;
   }
 
   nav ul {
@@ -113,12 +107,11 @@ nav a:hover {
 }
 
 .webpage-heading {  
-  height: 100px;
   display: inline-block;
   border-bottom: double;
   margin: 50px 0 70px 0;
-  text-align: center;    
-  width:100%;
+  text-align: center;
+  width: 100%;
 }
 
 .template-spacing {
@@ -304,8 +297,6 @@ p {
 }
 
 div > iframe {
-  width: 80%;
-  height: 350px;
   margin-bottom: 40px;
   width: 80%;
   height: 350px;
@@ -316,9 +307,8 @@ div > iframe {
   transform-box: view-box;
   width: 45%;
   height: 310px;
-  top: 20px;
-  margin-left: 90px;
-  position: relative;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .rarible {
@@ -329,23 +319,21 @@ div > iframe {
   position: relative;
 }
 
-.future-heading {
-  position: relative;
-  top: 25px;
-}
-
 .different-marketplace-text {
   border: 6px;
   border-color: white;
   border-style: dashed;
   border-radius: 25px;
-  width: 277px;
+  width: 280px;
   height: 200px;
-  margin-left: 620px;
 }
 
 .future-ed-div {
   max-width: 90%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .future-marketplace-text {
@@ -395,7 +383,6 @@ div > iframe {
 
 .future-list {
   list-style-type: none;
-  text-decoration-color: blue;
   text-decoration-line: underline;
   padding-left: 0px;
 }
@@ -413,13 +400,14 @@ a {
   background-color: rgb(8, 27, 148);
   width: 100%;
   display: inline-block;
-  position: inherit;
-  margin-top: -50px;
 }
 
 .future-div {
-  max-width: 100%;
-  display: block;
+  max-width: 90%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -453,11 +441,9 @@ audio {
   left: 0;
   width: 20%;
   opacity: 0.25;
-  height: 40px;
+  height: 30px;
   margin-left: 10px;
   top: 10px;
-  bottom: auto;
-  right: auto;
 }
 
 .play-me {
@@ -514,42 +500,38 @@ audio {
 
 /*tablets and under */
 @media screen and (max-width: 768px) {
-  Html {
+  html {
     Min-width: 100%
   }
   
-  .heading-bar{
-    max-width: fit-content;
-    height: 300px;
+  .heading-bar {
+    height: 50vh;
   }
+
   header {
     Max-width: 100%;
     Height: fit-content;
   }
-  .logo-area{
-    height: 190px;
+
+  .logo-area {
+    height: 100%;
   }
+
   .logo {
-    max-width: 90%;
-    height: auto;
+    height: 100%;
+    width: 100%;
   }
 
   .play-me {
-    position: relative;
-    top: -210px;
-    left: -325px;
-    max-width: 20%;
+    position: absolute;
     height: 3px;
-    width: 80px;
-    font-size: 1em;
+    width: fit-content;
+    font-size: 0.75rem;
+    margin-left: 15px;
   }
 
   Nav {
-    position: relative;
-    width: -webkit-fill-available;
-    text-align: center;
-    top: 70px;
-    background: rgb(8, 27, 148);
+    bottom: 50px;
     }
   
   nav ul li {
@@ -576,11 +558,13 @@ audio {
     height: auto;
   }
 
-   .rarible {
-    width: 45%;
-    transform: translateY(10px);
+  .rarible {
+    min-width: 45%;
+    margin-top: 15px;
+    margin-bottom: 15px;
    } 
-   .different-marketplace-text {
+
+  .different-marketplace-text {
     border: 6px;
     border-color: white;
     border-style: dashed;
@@ -591,19 +575,20 @@ audio {
     transform: translateY(60px);
    }
 
-   .future-div {
+  .future-div {
     height: 600px;
    }
 
-   .footer-area {
+  .footer-area {
     background-color: rgb(8, 27, 148);
     position: absolute;
     bottom: 0;
     width: 100%;
     left: 0px;
     display: block;
-   }
-} 
+  }
+}
+ 
 
 /*mobile*/
 @media screen and (max-width: 425px) {
@@ -622,11 +607,13 @@ audio {
   }
   
   nav {
-    top: -10px;
-    position: relative;
-    width: -webkit-fill-available;
-    text-align: center;
+    bottom: 40px;
   }
+
+  nav a {
+    font-size: 1rem;
+  }
+
   .future-profit-image {
     width: 80%;
     height: auto;
@@ -637,10 +624,10 @@ audio {
   }
 
   .future-div {
-    height: fit-content;
     display: inline-block;
     min-width: 100%;
   }
+
   .video-float {
     min-width: 90%;
     margin-left: 20px;
@@ -652,15 +639,11 @@ audio {
 
   .different-marketplace-text {
     margin-left: 0px;
-    transform: translateY(-40px);
-    position: relative;
-    top: 20px;
     contain: content;
   }
 
   .footer-area {
     display: inline-block;
     position: inherit;
-    margin-top: 195px;
   }
 }
