@@ -112,7 +112,8 @@ Wall of Gains
 
 This website was created to help those that are in or are just entering the crypto/web 3 space, our aim is to provide a place for people around the world to communicate share ideas and even possible make their own calls, but we also have our paid callers that have proven themselves time and time again that they know the space well. We welcome those of all ages in the cryptocurrency and NFT space, currently the space is full of teenagers/young adults that need the education we provide.
 
-![Screenshot 2022-12-10 at 18 17 31](https://user-images.githubusercontent.com/109948932/206869777-9749ade0-223d-4bd3-a249-31877544e0c1.png)
+![Screenshot 2023-01-26 at 18 12 18](https://user-images.githubusercontent.com/109948932/214918445-1b5eb3b4-4f9b-4185-a5d4-398c07e21a02.png)
+
 
 Features
 
