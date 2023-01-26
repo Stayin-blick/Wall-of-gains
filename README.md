@@ -116,7 +116,7 @@ This website was created to help those that are in or are just entering the cryp
 
 Features
 
-Navigation bar: to allow a quick jump to the sections that interest the reader with a back to top bottom at the bottom allowing those once they’ve swipe to quickly get back to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. Navigation bar includes a <details> which breaks the education section allowing for users to be more specific when it comes to choosing blockchains. The audio file is a nice relaxing song as those first entering the space may be nervous so this was implemented to help settle nerves and help the user as they approach a new concept, its located at the top of the page which allows users to quickly identify and interact with.
+Navigation bar: to allow a quick jump to sections that interest the reader with a back to top arrow at the bottom of the page allowing those once they’ve reached the bottom of the site, to quickly navigate to the top of the page. Color contrast is perfect allowing for the user to easily pick up on the words which allows for an easy smooth experience. The audio file is a nice relaxing song as those first entering the space may be nervous as to how to spend their money in the crypocurrency ecosystem, so this was implemented to help settle nerves and help the user as they approach a new concept, its located at the top of the page which allows users to quickly identify and interact with.
 
 ![Who are we, what are we doing in this space](https://user-images.githubusercontent.com/109948932/206869864-a878527c-54dc-4e12-8e5c-47ff0047b561.png)
 
