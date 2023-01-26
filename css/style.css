@@ -84,10 +84,6 @@ nav a:hover {
     color:black;
   }
 
-.founders-title {
-   text-align: center;
-  }
-
 .founders-section-area {
   display: inline-block;
   max-width: 100%;
@@ -96,9 +92,9 @@ nav a:hover {
 .founders-title {
   display: inline;
   width: 100%;
-  position: relative;
   top: 10px;
   bottom: 10px;
+  text-align: center;
 }
 
 .sim {
